@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex ;
+    width: 100%;
+    height:3.5cm;
+    margin: auto;
+    align-items: center;
+    background-color: #f6eeed;
+    position: fixed;
+}
+
+.logo-container, .nav-links, .loupe, .placeHolders{
+    display: flex;
+    margin: center;
+	align-items: flex-end;
+}
+
+.nav-links{
+    margin-left: 1cm;
+    flex: 5cm;
+    position: left;
+}
+
+
+.logo-container{
+    flex: 1cm;
+    margin-left: 1cm;
+}
+
+.logo-container h4{
+    margin-bottom: 1cm;
+}
+h4{
+    height: 330px;
+    margin-top: 25px;
+}
+
+.logo{
+    font-weight: 300;
+    margin-left: 10px;
+    display: flex;
+    height: 40px;
+    letter-spacing: 3px;
+}
+
+nav{
+    flex: 20;
+}
+
+.nav-links{
+    justify-content: flex-end;
+    list-style: none;
+    flex:4cm;
+}
+
+.nav-link{
+    text-decoration: none;
+    flex: 0 0 auto;
+	margin: 10px;
+	font-family: "Open Sans";
+	font-weight: normal;
+	font-style: normal;
+	color: #124c71;
+}
+
+.placeHolders{
+	margin-left:1cm;
+    justify-content: flex-start;
+    list-style: none;
+    flex: 0 0 auto;
+
+}
+
+.placeHolder{
+    text-decoration: none;
+    font-size: 0 10px;
+    align-items: center;
+	margin: 10px;
+	font-family: "Open Sans";
+	font-weight: normal;
+	font-style: normal;
+	color: #124c71;
+}
+
+.loupe{
+    justify-content: right;
+    position: left;
+	margin-left: 10px;
+	margin-right: 1cm;
+}
+
+
+.presentation{
+    display: flex;
+    width: 100%;
+    height: px;
+    margin: center;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;   
+    background-image: url("./img/bg.png");
+    background-size: cover;
+	background-position: center center;
+}
+
+.introduction{
+    font-size:  40px;
+    align-items: center;
+    justify-content: center;
+    color: #f6eeed;
+    margin: auto;
+    margin-top: 12cm;
+    
+}
+
+.content-area{
+    width: 100%;
+    position: relative;
+    height: 320px;
+
+}
+
+.wrapper{
+    padding-top: 15px;
+    margin: 0;
+    position:relative;
+    text-align: left;
+}
+
+.Imprint{
+    text-align: center;
+	background-color: #f6eeed;
+}
+
+.Imprint1{
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+/* .background{
+    background-image: url(./img/backround.jpg);;
+    padding: 20em;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    height: 200%;
+} */
+
+
+
+
+body, html, p{
+color: #124c71;
+font-family: "Martel";
+font-weight: 200;
+font-style: normal;
+}
+
+h1{
+font-family: "Raleway";
+font-weight: 200;
+font-style: normal;
+}
+
+h2, h3, h4{
+font-family: "Open Sans";
+font-weight: normal;
+font-style: normal;
+}
